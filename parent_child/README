@@ -4,3 +4,4 @@ create_parent.sh: create parent and child index and type
 insert_data.sh: insert some test data to ES
 test_query.sh: test query shell used to test if data has been inserted
 delete_parent.sh: delete all this test data
+bulk_data.sh: use bulk command to load parent/child data

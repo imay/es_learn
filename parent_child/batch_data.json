@@ -1,0 +1,56 @@
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "1" } }
+{ "name" : "赵纯" }
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "2" } }
+{ "name" : "胡杰" }
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "3" } }
+{ "name" : "董红臣" }
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "4" } }
+{ "name" : "黄振" }
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "5" } }
+{ "name" : "马如悦" }
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "6" } }
+{ "name" : "贾菁辉" }
+{ "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "7" } }
+{ "name" : "宫磊" }
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"1" } }
+{ "tag_name" : "足球"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"1" } }
+{ "tag_name" : ["游泳", "Palo"]}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"1" } }
+{ "tag_name" : "乒乓球"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"2" } }
+{ "tag_name" : "足球"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"2" } }
+{ "tag_name" : "90后"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"2" } }
+{ "tag_name" : "江西人"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"3" } }
+{ "tag_name" : "足球"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"3" } }
+{ "tag_name" : "80后"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"3" } }
+{ "tag_name" : "黑龙江人"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"4" } }
+{ "tag_name" : "Doris"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"4" } }
+{ "tag_name" : "80后"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"4" } }
+{ "tag_name" : "江西人"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"5" } }
+{ "tag_name" : "T8"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"5" } }
+{ "tag_name" : "80后"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"5" } }
+{ "tag_name" : "山东人"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"6" } }
+{ "tag_name" : "项目经理"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"6" } }
+{ "tag_name" : "80后"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"6" } }
+{ "tag_name" : "天津人"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"7" } }
+{ "tag_name" : "T6"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"7" } }
+{ "tag_name" : "70后"}
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"7" } }
+{ "tag_name" : "黑龙江人"}
