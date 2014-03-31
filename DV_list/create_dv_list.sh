@@ -4,9 +4,11 @@ curl -XPUT 'http://localhost:9200/dv_list'
 # user has a name, and some test points
 curl -XPUT 'http://localhost:9200/dv_list/user/_mapping' -d '{
     "user" : {
+        "_source" : {"enabled" : false},
         "properties" : {
             "name" : {
                 "type" : "string",
+                "store" : true,
                 "index" : "not_analyzed"
             },
             "point" : {

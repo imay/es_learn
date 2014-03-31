@@ -1,10 +1,17 @@
 echo "query ES with not indexed but doc_valued filed(point)"
 curl -XPOST 'http://localhost:9200/dv_list/user/_search?pretty=true' -d '{
 "query": {
-    "match": {
-        "point":70 
+"match_all": {
     }
-}
+},
+    "script_fields": {
+        "name": {
+            "script" : "doc[\u0027name\u0027].values"
+        },
+        "point": {
+            "script" : "doc[\u0027point\u0027].values"
+        }
+    }
 }'
 echo "query ES with indexed field(name)"
 curl -XPOST 'http://localhost:9200/dv_list/user/_search?pretty=true' -d '{
@@ -13,6 +20,15 @@ curl -XPOST 'http://localhost:9200/dv_list/user/_search?pretty=true' -d '{
         "name": "马如悦"
     }
 }
+}'
+
+echo "query ES with not indexed but doc_valued filed(point)"
+curl -XPOST 'http://localhost:9200/dv_list/user/_search?pretty=true' -d '{
+"query": {
+"match_all": {
+    }
+},
+    "fields": ["point"]
 }'
 
 # conclustion:
