@@ -1,1 +1,4 @@
 This is my Elasticsearch test case
+
+parent_child: used to learn how parent/child modle work in elasticsearch
+DV_list: used to learn how doc value handle list type

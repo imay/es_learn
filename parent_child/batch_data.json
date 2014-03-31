@@ -12,11 +12,11 @@
 { "name" : "贾菁辉" }
 { "index" : { "_index" : "parent_child", "_type" : "user", "_id" : "7" } }
 { "name" : "宫磊" }
-{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"1" } }
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"100" } }
 { "tag_name" : "足球"}
 { "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"1" } }
 { "tag_name" : ["游泳", "Palo"]}
-{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"1" } }
+{ "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"200" } }
 { "tag_name" : "乒乓球"}
 { "index" : { "_index" : "parent_child", "_type" : "user_tag", "_parent":"2" } }
 { "tag_name" : "足球"}

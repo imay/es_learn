@@ -1,0 +1,9 @@
+Test for DV List
+
+sh create_dv_lish.sh: create dv_list/user type in localhost ES
+sh delete_dv_lish.sh: delete dv_list/user type in localhost ES
+use "curl -XPOST localhost:9200/_bulk --data-binary @batch_data.json" to insert data to dv_list/user
+use `curl -XGET "localhost:9200/dv_list/user/1?pretty=true"` to get document which id is 1
+execute in shell `sh agg_list_query.sh` to find how ES handle 'list' field.
+execute in shell `sh doc_value_filter.sh` to test if ES can do some `filter` like option on a field 
+which is a doc_value list but not indexed, in this case is filed(point).
