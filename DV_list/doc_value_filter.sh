@@ -28,7 +28,16 @@ curl -XPOST 'http://localhost:9200/dv_list/user/_search?pretty=true' -d '{
 "match_all": {
     }
 },
-    "fields": ["point"]
+    "fielddata_fields": ["name"]
+}'
+
+echo "query ES with not indexed but doc_valued filed(point)"
+curl -XPOST 'http://localhost:9200/dv_list/user/_search?pretty=true' -d '{
+"query": {
+"match_all": {
+    }
+},
+    "_source": "point"
 }'
 
 # conclustion:

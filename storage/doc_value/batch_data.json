@@ -1,0 +1,14 @@
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "1" } }
+{ "name" : "赵纯", "point":[1, 2, 3, 4, 5] }
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "2" } }
+{ "name" : "胡杰", "point":[10, 20, 30, 40, 50] }
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "3" } }
+{ "name" : "董红臣", "point":100 }
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "4" } }
+{ "name" : "黄振", "point":[6, 7, 8, 9, 10] }
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "5" } }
+{ "name" : "马如悦", "point":70 }
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "6" } }
+{ "name" : "贾菁辉", "point":12 }
+{ "index" : { "_index" : "inverted", "_type" : "user", "_id" : "7" } }
+{ "name" : "宫磊", "point": 318 }
